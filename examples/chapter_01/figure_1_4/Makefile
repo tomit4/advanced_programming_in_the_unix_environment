@@ -1,6 +1,6 @@
 CC=gcc
 CFLAGS=-Wall -Wextra -Werror -Wpedantic -std=c2x
-TARGET = ../../bin/chapter_01/examples/figure_1_4
+TARGET = ../../../bin/examples/chapter_01/figure_1_4
 OBJS = error.o figure_1.4.o
 
 all: $(TARGET)
